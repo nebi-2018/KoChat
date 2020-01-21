@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardBackgroundColor="@color/colorPrimary"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp"
+    android:layout_gravity="center"
+    card_view:cardUseCompatPadding="true"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:orientation="vertical">
+
+     <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:includeFontPadding="true"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="@string/DialogFragment_header"
+         android:paddingRight="18dp"
+         android:paddingLeft="18dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+         android:textColor="@color/white"
+        app:fontFamily="sans-serif-condensed-medium" />
+
+    <EditText
+        android:id="@+id/editTextFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@drawable/white_round_corner_backgrd"
+        android:paddingStart="20dp"
+        android:paddingEnd="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginEnd="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:hint="@string/dialogFragment_textView_hint"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/registerButtonFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="register"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/dialogFragment_registerButton"
+             />
+
+        <Button
+            android:id="@+id/cancelButtonFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="@android:string/cancel"
+            android:text="@string/dialogFragment_cancelButton" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

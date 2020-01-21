@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatAppMVC</string>
+    <string name="send">SEND</string>
+    <string name="user_message_input">Enter your message</string>
+    <string name="unregistered_userName">Unknown</string>
+    <string name="message">chatmessage</string>
+    <string name="DialogFragment_header">Enter UserName to register</string>
+    <string name="dialogFragment_textView_hint">UserName</string>
+    <string name="dialogFragment_registerButton">Register</string>
+    <string name="dialogFragment_cancelButton">Cancel</string>
+    <string name="menu_icon_connect">connect</string>
+    <string name="menu_icon_register">register</string>
+    <string name="c_not_Succefull">Connection is not successful </string>
+    <string name="alread_connected">you have already connected</string>
+    <string name="connect_first">please connect first</string>
+    <string name="unable_to_register">unable to register </string>
+</resources>
